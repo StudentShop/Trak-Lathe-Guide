@@ -1,0 +1,1 @@
+Search.setIndex({envversion:48,filenames:["index"],objects:{},objnames:{},objtypes:{},terms:{content:[]},titles:["Trak TRL1540V Quick Start Guide"],titleterms:{guid:0,quick:0,start:0,trak:0,trl1540v:0}})
