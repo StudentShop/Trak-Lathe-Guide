@@ -1,0 +1,3 @@
+#vim creates .swp temp files, these don't need to be commited
+*.swp
+
