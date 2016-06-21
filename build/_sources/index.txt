@@ -6,9 +6,13 @@
 Trak TRL1540V Quick Start Guide
 ===============================
 
+The Trak TRL 1540V is a 2-axis computer numerical control (CNC) lathe.
+This guide is designed to get an individual up and running on the
+machine in the minimum amount of time and with little training. For
+complete documentation see the :download:`machine specific guide
+</pdf/22635_manual.pdf>` provided by Southwestern Industries. The following instructions are intended to be followed in order.
+
 .. toctree::
    :maxdepth: 2
-
-
 
 
