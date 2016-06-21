@@ -50,7 +50,7 @@ source_suffix = '.txt'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Trak Lathe Quick Start Guide'
+project = u'Trak Lathe Guide'
 copyright = u"""2016, The Board of Regents of the University of Wisconsin
 System"""
 

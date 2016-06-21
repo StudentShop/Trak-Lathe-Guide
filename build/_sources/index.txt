@@ -15,4 +15,4 @@ complete documentation see the :download:`machine specific guide
 .. toctree::
    :maxdepth: 2
 
-
+   gettingstarted

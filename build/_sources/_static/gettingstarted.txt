@@ -1,0 +1,10 @@
+Getting Started
+***************
+
+Before using the machine fully read and understand the material covered
+in this guide. This guide is not a replacement to the full documenation
+provided by Southwestern Industries. If you have any questions please ask one of the `shop staff <http://coestudentshop.engr.wisc.edu/about/staff.php>`_.
+
+--------
+Overview
+--------
