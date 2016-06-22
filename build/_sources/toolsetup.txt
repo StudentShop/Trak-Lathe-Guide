@@ -1,0 +1,6 @@
+Setting Up Tools
+****************
+
+If you are planning to run a CAM program or create a conversational program, and have not already done so, skip directly to either conversational programming or loading a program before reading this section.
+
+.. _toolsetup:
