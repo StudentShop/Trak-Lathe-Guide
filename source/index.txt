@@ -16,3 +16,4 @@ complete documentation see the :download:`machine specific guide
    :maxdepth: 2
 
    gettingstarted
+   startup

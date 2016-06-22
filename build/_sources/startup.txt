@@ -1,0 +1,30 @@
+Machine Startup
+***************
+
+.. caution:: Part of the startup procedure below will cause the machine to move automatically. If for any reason the machine starts to do something unintended hit the large red emergency stop button on the control panel.
+
+.. _startupprocedure:
+
+.. note:: If you encounter an error while working through this guide consult the troubleshooting section or ask shop staff for assistance.
+
+---------
+Procedure
+---------
+
+1. On the back, left side of the machine, rotate the main power switch to the on position.
+2. Check to make sure that both of the machine's emergency stops have been deactivated.
+3. Turn the power switch on the right hand side of the control panel to the on (up) position.
+4. Once the controller has fully booted, a screen will appear with the Southwestern Industries' logo and the name of the software (ProtoTRAK VL).
+5. Press the "CHECK SYSTEM" button at the bottom left side of the screen (note: the control panel does not have a touch screen, use the soft keys at the base of screen).
+6. Ensure that there are no tools inserted in the tailstock or toolpost.
+7. Check that the carriage has 2"-3" of clearance in all directions. If it does not, use the X and Z handwheels to move it to a safe location (note: the carriage will move very slowly).
+8. Press the button on the lower left side of the control panel that says "GO".
+9. The machine will now home itself, moving slightly in the X and Z coordinates.
+10. The control panel will now ask you to set the maximum spindle RPM. The maximum spindle speed for a chuck will be 2200 RPM or 1000 RPM if the jaws are reversed. The maximum spindle speed for collets will be 4000 RPM.
+11. Use the keyboard on the control panel to enter the maximum RPM. Press the "ABS SET" key to enter the value.
+
+.. note:: The maximum RPM can be modified at any time by pressing "MODE", "SETUP", "MAX RPM", then entering the new number, followed by "ABS SET" and then "MODE" to return to the main screen.
+
+12. Activate the lubrication system by pressing "MODE" (if not already on the home screen), "SET UP", SERV CODES", "E", "CODE 300", then "MODE".
+13. The machine is now ready for use.
+14. It is a good idea at this point to practice moving the axes with the jog stick and hand wheels located on the apron. The hand wheels can be set to move at a fine rate of speed or a course rate of speed by toggling the "F/C" button located just above the upper left side of number pad on the control panel.

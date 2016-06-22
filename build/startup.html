@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index &mdash; Trak Lathe Guide 2.0 documentation</title>
+  <title>Machine Startup &mdash; Trak Lathe Guide 2.0 documentation</title>
   
 
   
@@ -31,7 +30,8 @@
   
 
   
-    <link rel="top" title="Trak Lathe Guide 2.0 documentation" href="index.html"/> 
+    <link rel="top" title="Trak Lathe Guide 2.0 documentation" href="index.html"/>
+        <link rel="prev" title="Getting Started" href="gettingstarted.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -70,7 +70,7 @@
         
           
           
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="gettingstarted.html#overview">Overview</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="gettingstarted.html#control-panel">Control Panel</a></li>
@@ -84,8 +84,8 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="startup.html">Machine Startup</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="startup.html#procedure">Procedure</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Machine Startup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#procedure">Procedure</a></li>
 </ul>
 </li>
 </ul>
@@ -112,9 +112,11 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li></li>
+    <li>Machine Startup</li>
       <li class="wy-breadcrumbs-aside">
         
+          
+            <a href="_sources/startup.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -123,16 +125,53 @@
 </div>
           <div role="main" class="document">
             
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="machine-startup">
+<h1>Machine Startup<a class="headerlink" href="#machine-startup" title="Permalink to this headline">¶</a></h1>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Part of the startup procedure below will cause the machine to move automatically. If for any reason the machine starts to do something unintended hit the large red emergency stop button on the control panel.</p>
+</div>
+<div class="admonition note" id="startupprocedure">
+<p class="first admonition-title">Note</p>
+<p class="last">If you encounter an error while working through this guide consult the troubleshooting section or ask shop staff for assistance.</p>
+</div>
+<div class="section" id="procedure">
+<h2>Procedure<a class="headerlink" href="#procedure" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>On the back, left side of the machine, rotate the main power switch to the on position.</li>
+<li>Check to make sure that both of the machine&#8217;s emergency stops have been deactivated.</li>
+<li>Turn the power switch on the right hand side of the control panel to the on (up) position.</li>
+<li>Once the controller has fully booted, a screen will appear with the Southwestern Industries&#8217; logo and the name of the software (ProtoTRAK VL).</li>
+<li>Press the &#8220;CHECK SYSTEM&#8221; button at the bottom left side of the screen (note: the control panel does not have a touch screen, use the soft keys at the base of screen).</li>
+<li>Ensure that there are no tools inserted in the tailstock or toolpost.</li>
+<li>Check that the carriage has 2&#8221;-3&#8221; of clearance in all directions. If it does not, use the X and Z handwheels to move it to a safe location (note: the carriage will move very slowly).</li>
+<li>Press the button on the lower left side of the control panel that says &#8220;GO&#8221;.</li>
+<li>The machine will now home itself, moving slightly in the X and Z coordinates.</li>
+<li>The control panel will now ask you to set the maximum spindle RPM. The maximum spindle speed for a chuck will be 2200 RPM or 1000 RPM if the jaws are reversed. The maximum spindle speed for collets will be 4000 RPM.</li>
+<li>Use the keyboard on the control panel to enter the maximum RPM. Press the &#8220;ABS SET&#8221; key to enter the value.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The maximum RPM can be modified at any time by pressing &#8220;MODE&#8221;, &#8220;SETUP&#8221;, &#8220;MAX RPM&#8221;, then entering the new number, followed by &#8220;ABS SET&#8221; and then &#8220;MODE&#8221; to return to the main screen.</p>
+</div>
+<ol class="arabic simple" start="12">
+<li>Activate the lubrication system by pressing &#8220;MODE&#8221; (if not already on the home screen), &#8220;SET UP&#8221;, SERV CODES&#8221;, &#8220;E&#8221;, &#8220;CODE 300&#8221;, then &#8220;MODE&#8221;.</li>
+<li>The machine is now ready for use.</li>
+<li>It is a good idea at this point to practice moving the axes with the jog stick and hand wheels located on the apron. The hand wheels can be set to move at a fine rate of speed or a course rate of speed by toggling the &#8220;F/C&#8221; button located just above the upper left side of number pad on the control panel.</li>
+</ol>
+</div>
 </div>
 
 
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="gettingstarted.html" class="btn btn-neutral" title="Getting Started" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
