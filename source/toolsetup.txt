@@ -1,6 +1,46 @@
 Setting Up Tools
 ****************
 
-If you are planning to run a CAM program or create a conversational program, and have not already done so, skip directly to either conversational programming or loading a program before reading this section.
+.. note:: If you are planning to run a CAM program or create a conversational program, and have not already done so, skip directly to either conversational programming or loading a program before reading this section.
 
 .. _toolsetup:
+
+-----------------------
+Square the tool post
+-----------------------
+
+1.  Loosen the nut on the top of the tool post using the provided box end wrench (do not use an adjustable wrench)
+2. Bring the tailstock close to the carriage and position the tool post in front of the tailstock ram.
+3. Extend the ram face to meet the side of the tool post and check alignment.
+4. Tighten the nut on the top of the tool post.
+
+----------------
+Prepare Tools
+----------------
+
+1.
+select correct carbide and tool (nose radius, etc.)
+check carbide
+
+----------------------
+Set up tool holders
+----------------------
+
+insert tool into tool holder
+check tools are on center (note on boring bars being bottomed out)
+
+place tools in order to be used i.e. tool 1, tool 2, etc (do not load the tool post with more than one tool)
+do not use drills on the tool post (tailstock only)
+have staff verify tools have been correctly installed
+
+---------------
+Set tool table
+---------------
+
+---------------------------------------
+Set tool change reference position
+---------------------------------------
+
+--------------------------
+Set up coolant method
+--------------------------
