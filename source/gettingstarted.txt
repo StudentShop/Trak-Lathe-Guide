@@ -2,14 +2,14 @@ Getting Started
 ***************
 
 Before using the machine fully read and understand the material covered
-in this guide. This guide is not a replacement to the full documenation
+in this guide. This guide is not a replacement to the full documentation
 provided by Southwestern Industries. If you have any questions please ask one of the `shop staff <http://coestudentshop.engr.wisc.edu/about/staff.php>`_.
 
 --------
 Overview
 --------
 
-The Trak TRL 1540V is intended for medium sized work. The machine's X & Z limits are 5" x 40" (127mm x 1016mm). The machine has a spindle speed range of 150 to 4000 RPM with a maximum feed rate of 50 IPM (1270 mm/m) in the X & Z axis.
+The Trak TRL 1540V is intended for medium sized CNC work. With a few minor exceptions, manual machining should not be done on this machine. The machine's X & Z limits are 5" x 40" (127mm x 1016mm). The machine has a spindle speed range of 150 to 4000 RPM with a maximum feed rate of 50 IPM (1270 mm/m) in the X & Z axis.
 
 .. image:: /images/traklathe.jpg
    :align: center
@@ -29,7 +29,7 @@ Remote Stop/Go Switch
 The remote stop/go switch is a hand-held remote equivalent to the STOP/GO
 button on the control panel.
 
-Apron 
+Apron
 ^^^^^
 
 .. image:: /images/carriagectrl.jpg
@@ -79,5 +79,3 @@ Tailstock
 .. image:: /images/tailstock.jpg
 
 The tailstock is used for drilling, when a drill chuck is installed, or supporting the material, by using a live center.
-
-   
