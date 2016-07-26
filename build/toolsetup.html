@@ -91,8 +91,9 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Setting Up Tools</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#square-the-tool-post">Square the tool post</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#prepare-tools">Prepare Tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#set-up-tool-holders">Set up tool holders</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#set-up-tool-table">Set up tool table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#work-holding">Work Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prepare-the-stock-material">Prepare the Stock Material</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#set-tool-table">Set tool table</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#set-tool-change-reference-position">Set tool change reference position</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#set-up-coolant-method">Set up coolant method</a></li>
 </ul>
@@ -142,29 +143,48 @@
 </div>
 <div class="section" id="square-the-tool-post">
 <span id="toolsetup"></span><h2>Square the tool post<a class="headerlink" href="#square-the-tool-post" title="Permalink to this headline">¶</a></h2>
+<div class="admonition caution">
+<p class="first admonition-title">Caution</p>
+<p class="last">Unlike the manual lathes you are familiar with, the X and Z hand wheels are not directly coupled to the movement of the carriage. Carriage movement is controlled by servo motors, this means there is no sense of feel when moving the carriage. For example, if you crash a tool into something using the hand wheels, you will feel no resistance. For this reason you must exercise a significant amount of care and attention when moving the machine manually. Crashing the machine will result in permanent revocation of CNC lathe privileges.</p>
+</div>
 <ol class="arabic simple">
+<li>Check that the toolpost mounting fixture is ~2 inches from the end of the cross slide closest to you. If it requires adjusting please speak with shop staff.</li>
 <li>Loosen the nut on the top of the tool post using the provided box end wrench (do not use an adjustable wrench)</li>
-<li>Bring the tailstock close to the carriage and position the tool post in front of the tailstock ram.</li>
-<li>Extend the ram face to meet the side of the tool post and check alignment.</li>
-<li>Tighten the nut on the top of the tool post.</li>
+<li>On the controller, press MODE and then DRO to activate the jog stick and hand wheels</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Now is a good time to familiarize yourself with the hand wheels and jog stick by carefully moving the carriage with them. You must completely understand which way the carriage will move when using the manual controls before continuing.</p>
+</div>
+<ol class="arabic simple" start="4">
+<li>Use the jog stick to position the tool post so it is centered in front of the tailstock. <strong>*ADD NOTE ABOUT HITTING LIMIT SWITCHES*</strong></li>
+<li>Unlock the tailstock and bring it close to the carriage.</li>
+<li>Unlock the tailstock ram, then extend the tailstock ram until its face comes into contact with the side of the toolpost.</li>
+<li>Ensuring the toolpost t-nut remains flush with the side of the toolpost mounting fixture closest to the chuck/spindle, align the toolpost so that it is parallel to the face of the tailstock ram.</li>
+<li>Being careful to keep the the toolpost square to the tailstock face, tighten the nut on the top of the toolpost.</li>
+<li>Return the tailstock to the end of the ways and then press MODE on the controller.</li>
 </ol>
 </div>
 <div class="section" id="prepare-tools">
 <h2>Prepare Tools<a class="headerlink" href="#prepare-tools" title="Permalink to this headline">¶</a></h2>
-<p>1.
+<p>require at least a right hand turning tool to clean up stock to accurately find zero locations.
 select correct carbide and tool (nose radius, etc.)
-check carbide</p>
-</div>
-<div class="section" id="set-up-tool-holders">
-<h2>Set up tool holders<a class="headerlink" href="#set-up-tool-holders" title="Permalink to this headline">¶</a></h2>
-<p>insert tool into tool holder
+check carbide
+insert tool into tool holder
 check tools are on center (note on boring bars being bottomed out)</p>
-<p>place tools in order to be used (do not load the tool post with more than one too)
+<p>place tools in order to be used i.e. tool 1, tool 2, etc (do not load the tool post with more than one tool)
 do not use drills on the tool post (tailstock only)
 have staff verify tools have been correctly installed</p>
 </div>
-<div class="section" id="set-up-tool-table">
-<h2>Set up tool table<a class="headerlink" href="#set-up-tool-table" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="work-holding">
+<h2>Work Holding<a class="headerlink" href="#work-holding" title="Permalink to this headline">¶</a></h2>
+<p>max speed change for collets</p>
+</div>
+<div class="section" id="prepare-the-stock-material">
+<h2>Prepare the Stock Material<a class="headerlink" href="#prepare-the-stock-material" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="set-tool-table">
+<h2>Set tool table<a class="headerlink" href="#set-tool-table" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="set-tool-change-reference-position">
 <h2>Set tool change reference position<a class="headerlink" href="#set-tool-change-reference-position" title="Permalink to this headline">¶</a></h2>

@@ -9,33 +9,46 @@ Setting Up Tools
 Square the tool post
 -----------------------
 
-1.  Loosen the nut on the top of the tool post using the provided box end wrench (do not use an adjustable wrench)
-2. Bring the tailstock close to the carriage and position the tool post in front of the tailstock ram.
-3. Extend the ram face to meet the side of the tool post and check alignment.
-4. Tighten the nut on the top of the tool post.
+.. caution:: Unlike the manual lathes you are familiar with, the X and Z hand wheels are not directly coupled to the movement of the carriage. Carriage movement is controlled by servo motors, this means there is no sense of feel when moving the carriage. For example, if you crash a tool into something using the hand wheels, you will feel no resistance. For this reason you must exercise a significant amount of care and attention when moving the machine manually. Crashing the machine will result in permanent revocation of CNC lathe privileges.
+
+1. Check that the toolpost mounting fixture is ~2 inches from the end of the cross slide closest to you. If it requires adjusting please speak with shop staff.
+2.  Loosen the nut on the top of the tool post using the provided box end wrench (do not use an adjustable wrench)
+3. On the controller, press MODE and then DRO to activate the jog stick and hand wheels
+
+.. note:: Now is a good time to familiarize yourself with the hand wheels and jog stick by carefully moving the carriage with them. You must completely understand which way the carriage will move when using the manual controls before continuing.
+
+4. Use the jog stick to position the tool post so it is centered in front of the tailstock. ***ADD NOTE ABOUT HITTING LIMIT SWITCHES***
+5. Unlock the tailstock and bring it close to the carriage.
+6. Unlock the tailstock ram, then extend the tailstock ram until its face comes into contact with the side of the toolpost.
+7. Ensuring the toolpost t-nut remains flush with the side of the toolpost mounting fixture closest to the chuck/spindle, align the toolpost so that it is parallel to the face of the tailstock ram.
+8. Being careful to keep the the toolpost square to the tailstock face, tighten the nut on the top of the toolpost.
+9. Return the tailstock to the end of the ways and then press MODE on the controller.
 
 ----------------
 Prepare Tools
 ----------------
-
-1.
+require at least a right hand turning tool to clean up stock to accurately find zero locations.
 select correct carbide and tool (nose radius, etc.)
 check carbide
-
-----------------------
-Set up tool holders
-----------------------
-
 insert tool into tool holder
 check tools are on center (note on boring bars being bottomed out)
 
-place tools in order to be used (do not load the tool post with more than one too)
+place tools in order to be used i.e. tool 1, tool 2, etc (do not load the tool post with more than one tool)
 do not use drills on the tool post (tailstock only)
 have staff verify tools have been correctly installed
 
--------------------
-Set up tool table
--------------------
+-----------------
+Work Holding
+-----------------
+max speed change for collets
+
+-------------------------------
+Prepare the Stock Material
+-------------------------------
+
+---------------
+Set tool table
+---------------
 
 ---------------------------------------
 Set tool change reference position
