@@ -1,0 +1,15 @@
+Machine Setup
+**************
+
+-----------------
+Work Holding
+-----------------
+max speed change for collets
+
+-------------------------------
+Prepare the Stock Material
+-------------------------------
+
+--------------------------
+Set up coolant method
+--------------------------

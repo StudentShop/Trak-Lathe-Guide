@@ -18,3 +18,4 @@ complete documentation see the :download:`machine specific guide
    gettingstarted
    startup
    toolsetup
+   machinesetup
