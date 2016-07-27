@@ -91,11 +91,9 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Setting Up Tools</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#square-the-tool-post">Square the tool post</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#prepare-tools">Prepare Tools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#work-holding">Work Holding</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#prepare-the-stock-material">Prepare the Stock Material</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#center-tooling">Center Tooling</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#set-tool-table">Set tool table</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#set-tool-change-reference-position">Set tool change reference position</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#set-up-coolant-method">Set up coolant method</a></li>
 </ul>
 </li>
 </ul>
@@ -154,7 +152,7 @@
 </ol>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Now is a good time to familiarize yourself with the hand wheels and jog stick by carefully moving the carriage with them. You must completely understand which way the carriage will move when using the manual controls before continuing.</p>
+<p class="last">Now is a good time to familiarize yourself with the hand wheels and jog stick by carefully moving the carriage with them. You must completely understand which way the carriage will move when using the manual controls before continuing. The increment resolution of the hand wheels  can be set to either course or fine using the F/C button on the controller.</p>
 </div>
 <ol class="arabic simple" start="4">
 <li>Use the jog stick to position the tool post so it is centered in front of the tailstock. <strong>*ADD NOTE ABOUT HITTING LIMIT SWITCHES*</strong></li>
@@ -167,30 +165,40 @@
 </div>
 <div class="section" id="prepare-tools">
 <h2>Prepare Tools<a class="headerlink" href="#prepare-tools" title="Permalink to this headline">¶</a></h2>
-<p>require at least a right hand turning tool to clean up stock to accurately find zero locations.
-select correct carbide and tool (nose radius, etc.)
-check carbide
-insert tool into tool holder
-check tools are on center (note on boring bars being bottomed out)</p>
-<p>place tools in order to be used i.e. tool 1, tool 2, etc (do not load the tool post with more than one tool)
-do not use drills on the tool post (tailstock only)
-have staff verify tools have been correctly installed</p>
+<ol class="arabic simple">
+<li>Identify the cutting tools and tool holders you will need to complete the part. At minimum you will need a live center to center your tool(s) and right hand turning tool to turn and face your stock prior to performing any further operations.</li>
+<li>The tooling for the Trak lathe is located in the red tool cart next to the machine. Ask shop staff to assist you in selecting and setting up your tools.</li>
+<li>Make note of the nose radius (if any) of the tools you select. You will need to know these later.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">CNC drilling (using a drill in a holder on the toolpost) is not allowed on this machine.</p>
 </div>
-<div class="section" id="work-holding">
-<h2>Work Holding<a class="headerlink" href="#work-holding" title="Permalink to this headline">¶</a></h2>
-<p>max speed change for collets</p>
 </div>
-<div class="section" id="prepare-the-stock-material">
-<h2>Prepare the Stock Material<a class="headerlink" href="#prepare-the-stock-material" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="center-tooling">
+<h2>Center Tooling<a class="headerlink" href="#center-tooling" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Unlock the tailstock and bring it close to the carriage.</li>
+<li>Insert a live center into the tailstock.</li>
+<li>Insert a tool into the tool post so that the tip of the tool faces the tailstock.</li>
+<li>On the controller, press MODE and the DRO to activate the jog stick and hand wheels.</li>
+<li>Adjust the carriage and tailstock so that the tip of the tool can be easily aligned with the tip of the live center.</li>
+<li>Loosen the locking nut on the tool holder.</li>
+<li>Use the tool holder height adjustment knob to align the tip of tool with the tip of the live center.</li>
+<li>Once aligned, tighten the locking nut on the tool holder.</li>
+<li>Repeat this process for each tool.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">It is recommended that you order your tooling on top of the red tool cart in the order you intend to use them (i.e, left to right, tool 1, tool 2, etc.). This will help avoid mistaking similar looking tools with the correct one for the current operation.</p>
+</div>
 </div>
 <div class="section" id="set-tool-table">
 <h2>Set tool table<a class="headerlink" href="#set-tool-table" title="Permalink to this headline">¶</a></h2>
+<p>note program should already be created at this point if being used in CNC mode (see note at top of page)</p>
 </div>
 <div class="section" id="set-tool-change-reference-position">
 <h2>Set tool change reference position<a class="headerlink" href="#set-tool-change-reference-position" title="Permalink to this headline">¶</a></h2>
-</div>
-<div class="section" id="set-up-coolant-method">
-<h2>Set up coolant method<a class="headerlink" href="#set-up-coolant-method" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
